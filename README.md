@@ -16,3 +16,5 @@ Use a similar font style, this does not have to be exact.
 Font sizes are: 14px/18px for category, 24px/31px for the heading and 16px/19px for the standfirst
 
 The colours used are: #0059bf #000000 and #606669
+
+Kindly change the path name for code-test.json in HomeAction.js while running into local.
