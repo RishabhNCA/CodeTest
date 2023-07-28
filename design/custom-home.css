@@ -32,11 +32,11 @@
     padding-top: 20px;
 }
 
-.category-link {
-    text-decoration: none;
-}
-
 .thumbnail {
     width: 316px;
     height: 237px;
 }
+
+.primary-name:hover, .headline:hover, .standfirst:hover, .thumbnail:hover {
+    cursor: pointer;
+  }
