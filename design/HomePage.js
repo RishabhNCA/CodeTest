@@ -1,4 +1,4 @@
-const test_data_url = "http://127.0.0.1:5500/json/code-test.json";
+const test_data_url = "../json/code-test.json";
  
 async function getData(url) {
     const response = await fetch(url);
@@ -20,7 +20,7 @@ function show(data) {
                   <div class='standfirst'>${articles?.standfirst}</div>
                 </div>
                 <div class='right-container'>
-                  <img src=${articles?.thumbnail?.src} alt=${articles?.thumbnail?.title} width=${articles?.thumbnail?.width} height=${articles?.thumbnail?.height} />
+                  <img class='thumbnail' src=${articles?.thumbnail?.src} alt=${articles?.thumbnail?.title} />
                 </div>
               </div>
             </a>

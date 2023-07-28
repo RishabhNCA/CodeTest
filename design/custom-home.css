@@ -35,3 +35,8 @@
 .category-link {
     text-decoration: none;
 }
+
+.thumbnail {
+    width: 316px;
+    height: 237px;
+}
